@@ -15,7 +15,7 @@ docker create --name=<container-name> -v /etc/localtime:/etc/localtime:ro -v <pa
 **Parameters**
 
 * `-p 4242` - the port(s)
-* `-v /etc/localhost` for timesync - *optional*
+* `-v /etc/localtime` for timesync - *optional*
 * `-v /config` -
 * `-e PGID` for GroupID - see below for explanation
 * `-e PUID` for UserID - see below for explanation
