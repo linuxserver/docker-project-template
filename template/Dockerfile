@@ -28,3 +28,4 @@ EXPOSE PORT
 ## When creating init's Use 10's where posible, its to allow add stuff in between when needed. also, do not be afraid to split custom code into several little ones. 
 ## Make stuff as quiet as posible "e.g. apt-get update -qq" (Does not apply to the "app" itself. e.g. plex)
 ## user abc and folders /app /config /defaults are all created by baseimage
+## the first available init script is 30<your script>.sh 
