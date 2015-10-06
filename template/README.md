@@ -4,4 +4,4 @@
 If you are curious about the current progress or want to comment\contribute to this work, feel free to join us at out irc channel:
 [IRC](https://www.linuxserver.io/index.php/irc/) on freenode at `#linuxserver.io`.
 
-or visit our website at [http://linuxserver.io](https://www.linuxserver.io/)
+or visit our website at [https://linuxserver.io](https://www.linuxserver.io/)
