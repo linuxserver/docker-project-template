@@ -9,7 +9,9 @@ The [LinuxServer.io](https://www.linuxserver.io/) team brings you another qualit
 ## Usage
 
 ```
-docker create --name=<container-name> -v /etc/localtime:/etc/localtime:ro -v <path to data>:/config -e PGID=<gid> -e PUID=<uid>  -p 1234:1234 linuxserver/<container-name>
+docker create --name=<container-name> -v /etc/localtime:/etc/localtime:ro -v \
+<path to data>:/config -e PGID=<gid> -e PUID=<uid>  \
+-p 1234:1234 linuxserver/<container-name>
 ```
 
 **Parameters**
