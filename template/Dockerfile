@@ -1,5 +1,7 @@
 FROM linuxserver/baseimage
 MAINTAINER Your Name <your@email.com>
+ARG DEBIAN_FRONTEND="noninteractive"
+
 ENV APTLIST="packages to install and update via apt"
 
 #Applying stuff
