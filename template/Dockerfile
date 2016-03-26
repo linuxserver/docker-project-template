@@ -6,6 +6,7 @@ ENV APTLIST="packages to install and update via apt"
 
 #Applying stuff
 RUN apt-get update -q && \
+apt-get install $APTLIST -qy && \
 ##DO STUFF HERE 
 ## END EACH LINE WITH && \
 ## EXCEPT THE LINE BELOW
