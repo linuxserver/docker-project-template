@@ -6,7 +6,7 @@ RUN \
 
 ##DO STUFF HERE
 ## END EACH LINE WITH && \
-## EXCEPT THE LINE BELOW
+## EXCEPT THE LAST LINE OF THE BLOCK
 
 
 # copy local files
