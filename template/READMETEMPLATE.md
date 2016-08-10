@@ -9,7 +9,7 @@ The [LinuxServer.io](https://linuxserver.io) team brings you another container r
 
 Provide a short, concise description of the application. No more than two SHORT paragraphs. Link to sources where possible and include an image illustrating your point if necessary. Point users to the original applications website, as that's the best place to get support - not here.
 
-Our Plex container has immaculate docs so follow that if in doubt for layout. 
+Our Plex container has immaculate docs so follow that if in doubt for layout.
 
 ## Usage
 
@@ -29,6 +29,7 @@ docker create \
 * `-e PGID` for GroupID - see below for explanation
 * `-e PUID` for UserID - see below for explanation
 
+It is based on alpine linux with s6 overlay, for shell access whilst the container is running do `docker exec -it <container-name> /bin/bash`.
 
 ### User / Group Identifiers
 
@@ -46,10 +47,9 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 Insert a basic user guide here to get a n00b up and running with the software inside the container. DELETE ME
 
 
-## Updates
+## Info
 
 * Shell access whilst the container is running: `docker exec -it container-name /bin/bash`
-* Upgrade to the latest version: `docker restart container-name`
 * To monitor the logs of the container in realtime: `docker logs -f container-name`
 
 ## Versions

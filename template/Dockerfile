@@ -1,34 +1,24 @@
-FROM linuxserver/baseimage
+FROM lsiobase/alpine
 MAINTAINER Your Name <your@email.com>
-ARG DEBIAN_FRONTEND="noninteractive"
 
-ENV APTLIST="packages to install and update via apt"
+# install packages
+RUN \
 
-#Applying stuff
-RUN apt-get update -q && \
-apt-get install $APTLIST -qy && \
-##DO STUFF HERE 
+##DO STUFF HERE
 ## END EACH LINE WITH && \
 ## EXCEPT THE LINE BELOW
-apt-get clean && rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
 
-#Adding Custom files
-COPY init/ /etc/my_init.d/
-COPY  services/ /etc/service/
-COPY cron/ /etc/cron.d/
-COPY defaults/ /defaults/
-RUN chmod -v +x /etc/service/*/run /etc/my_init.d/*.sh
+# copy local files
+COPY root/ /
 
-# Volumes and Ports
-VOLUME /volume
+# ports and volumes
 EXPOSE PORT
+VOLUME /volume
 
 ## NOTES ##
-## Delete files\folders not needed, e.g. if you dont run any cron commands, delete the cron folder and the "ADD cron/ /etc/cron.d/" line. 
-## The User abc, should be running everything, give that permission in any case you need it. 
-## Use linuxserver/baseimage as often as posible (or linuxserver/baseimage.nginx/apache/python where applicable)
-## When creating init's Use 10's where posible, its to allow add stuff in between when needed. also, do not be afraid to split custom code into several little ones. 
-## Make stuff as quiet as posible "e.g. apt-get update -qq" (Does not apply to the "app" itself. e.g. plex)
+## Delete files\folders not needed
+## The User abc, should be running everything, give that permission in any case you need it.
+## When creating init's Use 10's where posible, its to allow add stuff in between when needed. also, do not be afraid to split custom code into several little ones.
 ## user abc and folders /app /config /defaults are all created by baseimage
-## the first available init script is 30<your script>.sh 
+## the first available init script is 30<your script>
