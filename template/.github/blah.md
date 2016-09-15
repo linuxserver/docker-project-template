@@ -3,4 +3,4 @@
 
 ##  Submission guide for issues
 
-+ ** Make sure you don't go in dry
++ Make sure you don't go in dry
