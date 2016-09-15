@@ -8,7 +8,7 @@
 
 <!---  Host OS -->
 <!--- Command line users, your run/create command, GUI/Unraid users, a screenshot of your template settings. -->
-<!--- Docker log output, docker log <container-name> -->
+<!--- Docker log output, docker log <container-name>      -->
 <!--- Mention if you're using symlinks on any of the volume mounts. -->
 
 
