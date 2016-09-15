@@ -16,3 +16,6 @@
 
 <!--- What you think your suggestion brings to the project, or fixes with the project -->
 <!--- If it's a fix, would it be better suited as a Pull request to the repo ? -->
+
+##  Thanks, team linuxserver.io
+
