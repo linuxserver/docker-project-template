@@ -4,7 +4,7 @@
 [![linuxserver.io](https://www.linuxserver.io/wp-content/uploads/2015/06/linuxserver_medium.png)][linuxserverurl]
 	
 
-## Please provide us with the following information -->
+<!--- Please provide us with the following information -->
 
 <!---  Host OS -->
 <!--- Command line users, your run/create command, GUI/Unraid users, a screenshot of your template settings. -->
