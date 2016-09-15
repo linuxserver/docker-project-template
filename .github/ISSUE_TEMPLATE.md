@@ -4,7 +4,7 @@
 [![linuxserver.io](https://www.linuxserver.io/wp-content/uploads/2015/06/linuxserver_medium.png)][linuxserverurl]
 	
 
-<!--- Please provide us with the following information -->
+<!--- If you have an issue with the project, please provide us with the following information -->
 
 <!---  Host OS -->
 <!--- Command line users, your run/create command, GUI/Unraid users, a screenshot of your template settings. -->
@@ -12,3 +12,7 @@
 <!--- Mention if you're using symlinks on any of the volume mounts. -->
 
 
+<!--- If you have a suggestion or fix for the project, please provide us with the following information -->
+
+<!--- What you think your suggestion brings to the project, or fixes with the project -->
+<!--- If it's a fix, would it be better suited as a Pull request to the repo ? -->
