@@ -57,6 +57,14 @@ Insert a basic user guide here to get a n00b up and running with the software in
 * Shell access whilst the container is running: `docker exec -it container-name /bin/bash`
 * To monitor the logs of the container in realtime: `docker logs -f container-name`
 
+* container version number 
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>`
+
+* image version number
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>`
+
 ## Versions
 
 + **dd.MM.yyyy:** This is the standard Version type now.
