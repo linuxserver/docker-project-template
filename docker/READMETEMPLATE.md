@@ -15,8 +15,8 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 Provide a short, concise description of the application. No more than two SHORT paragraphs. Link to sources where possible and include an image illustrating your point if necessary. Point users to the original applications website, as that's the best place to get support - not here.
 
 Our Plex container has immaculate docs so follow that if in doubt for layout.
-
-## Usage
+`IMPORTANT, replace all instances of <image-name> with the correct dockerhub repo (ie linuxserver/plex) and <container-name> information (ie, plex)
+ ## Usage
 
 ```
 docker create \
