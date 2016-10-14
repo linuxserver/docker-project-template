@@ -10,7 +10,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [IRC][ircurl] on freenode at `#linuxserver.io`
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
-# linuxserver/<container-name>
+# <image-name>
 
 Provide a short, concise description of the application. No more than two SHORT paragraphs. Link to sources where possible and include an image illustrating your point if necessary. Point users to the original applications website, as that's the best place to get support - not here.
 
@@ -24,7 +24,7 @@ docker create \
   -v <path to data>:/config \
   -e PGID=<gid> -e PUID=<uid>  \
   -p 1234:1234 \
-  linuxserver/<container-name>
+  <image-name>
 ```
 
 **Parameters**
@@ -54,8 +54,8 @@ Insert a basic user guide here to get a n00b up and running with the software in
 
 ## Info
 
-* Shell access whilst the container is running: `docker exec -it container-name /bin/bash`
-* To monitor the logs of the container in realtime: `docker logs -f container-name`
+* Shell access whilst the container is running: `docker exec -it <container-name> /bin/bash`
+* To monitor the logs of the container in realtime: `docker logs -f <container-name>`
 
 * container version number 
 
