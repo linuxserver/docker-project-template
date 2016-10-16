@@ -29,7 +29,7 @@ docker create \
   <image-name>
 ```
 
-**Parameters**
+## Parameters
 
 `The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
 For example with a port -p external:internal - what this shows is the port mapping from internal to external of the container.
