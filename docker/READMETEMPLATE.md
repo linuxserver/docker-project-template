@@ -18,7 +18,7 @@ Our Plex container has immaculate docs so follow that if in doubt for layout.
 
 `IMPORTANT, replace all instances of <image-name> with the correct dockerhub repo (ie linuxserver/plex) and <container-name> information (ie, plex)`
 
- ## Usage
+## Usage
 
 ```
 docker create \
