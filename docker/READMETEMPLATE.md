@@ -18,7 +18,7 @@ Our Plex container has immaculate docs so follow that if in doubt for layout.
 
 `IMPORTANT, replace all instances of <image-name> with the correct dockerhub repo (ie linuxserver/plex) and <container-name> information (ie, plex)`
 
- ## Usage
+## Usage
 
 ```
 docker create \
@@ -29,7 +29,14 @@ docker create \
   <image-name>
 ```
 
-**Parameters**
+## Parameters
+
+`The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
+For example with a port -p external:internal - what this shows is the port mapping from internal to external of the container.
+So -p 8080:80 would expose port 80 from inside the container to be accessible from the host's IP on port 8080
+http://192.168.x.x:8080 would show you what's running INSIDE the container on port 80.`
+
+
 
 * `-p 1234` - the port(s)
 * `-v /config` - explain what lives here
