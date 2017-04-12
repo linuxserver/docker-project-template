@@ -78,4 +78,4 @@ Insert a basic user guide here to get a n00b up and running with the software in
 
 ## Versions
 
-+ **dd.MM.yy:** This is the standard Version type now.
++ **dd.MM.yy:** Initial Release.
