@@ -1,4 +1,4 @@
-FROM lsiobase/alpine
+FROM lsiobase/alpine:3.6
 MAINTAINER Your Name <your@email.com>
 
 # set version label
