@@ -27,3 +27,4 @@ VOLUME /volume
 ## When creating init's Use 10's where posible, its to allow add stuff in between when needed. also, do not be afraid to split custom code into several little ones.
 ## user abc and folders /app /config /defaults are all created by baseimage
 ## the first available init script is 30<your script>
+## you can comment the beginning of each new RUN block but you cannot comment between commands in each RUN block.
