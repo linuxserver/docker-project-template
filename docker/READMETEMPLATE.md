@@ -17,6 +17,8 @@
 | IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
 | Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxerver.io Podcast][podcasturl] |
 
+The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping.
+
 # <image-name>
 
 Provide a short, concise description of the application. No more than two SHORT paragraphs. Link to sources where possible and include an image illustrating your point if necessary. Point users to the original applications website, as that's the best place to get support - not here.
