@@ -12,7 +12,7 @@
 | Contact information:- |
 | :---: |
 
-| Type | Address | 
+| Type | Address/Details | 
 | :---: | --- |
 | Forum | [Linuserver.io forum][forumurl] |
 | IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
