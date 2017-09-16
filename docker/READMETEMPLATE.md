@@ -74,8 +74,10 @@ Insert a basic user guide here to get a n00b up and running with the software in
 
 ## Info
 
-* Shell access whilst the container is running: `docker exec -it <container-name> /bin/bash`
-* To monitor the logs of the container in realtime: `docker logs -f <container-name>`
+| Function | Command |
+| --- | :---: |
+| Shell access | `docker exec -it <container-name> /bin/bash` |
+| To monitor the logs of the container in realtime: | `docker logs -f <container-name>` |
 
 * container version number 
 
