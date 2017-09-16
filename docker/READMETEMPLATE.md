@@ -6,7 +6,7 @@
 [hub]: https://hub.docker.com/r/example/example/
 
 
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
+[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png&s=200)][linuxserverurl]
 
 
 
