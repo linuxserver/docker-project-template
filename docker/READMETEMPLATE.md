@@ -10,6 +10,7 @@
 The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. 
 
 Find us for chat or support at:
+
 | Type | Address | 
 | --- | --- |
 | Forum | [Linuserver.io forum][forumurl] |
