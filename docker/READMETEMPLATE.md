@@ -5,18 +5,25 @@
 [appurl]: www.example.com
 [hub]: https://hub.docker.com/r/example/example/
 
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
-The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
-* [forum.linuxserver.io][forumurl]
-* [IRC][ircurl] on freenode at `#linuxserver.io`
-* [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
+[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png?v=4&s=4000)][linuxserverurl]
+
+
+| Contact information:- |
+| :---: |
+
+| Type | Address/Details | 
+| :---: | --- |
+| Forum | [Linuserver.io forum][forumurl] |
+| IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
+| Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxserver.io Podcast][podcasturl] |
+
+
+The [LinuxServer.io][linuxserverurl] team brings you another image release featuring easy user mapping and based on alpine linux with s6 overlay.
 
 # <image-name>
 
 Provide a short, concise description of the application. No more than two SHORT paragraphs. Link to sources where possible and include an image illustrating your point if necessary. Point users to the original applications website, as that's the best place to get support - not here.
-
-Our Plex container has immaculate docs so follow that if in doubt for layout.
 
 `IMPORTANT, replace all instances of <image-name> with the correct dockerhub repo (ie linuxserver/plex) and <container-name> information (ie, plex)`
 
@@ -40,18 +47,20 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 
 
 
-* `-p 1234` - the port(s)
-* `-v /config` - explain what lives here
-* `-e PGID` for GroupID - see below for explanation
-* `-e PUID` for UserID - see below for explanation
-
-It is based on alpine linux with s6 overlay, for shell access whilst the container is running do `docker exec -it <container-name> /bin/bash`.
+| Parameter | Function |
+| :---: | --- |
+| `-p 1234` | the port(s) |
+| `-v /config` | explain what lives here |
+| `-e PGID` | for GroupID, see below for explanation |
+| `-e PUID` | for UserID, see below for explanation |
 
 ### User / Group Identifiers
 
-Sometimes when using data volumes (`-v` flags) permissions issues can arise between the host OS and the container. We avoid this issue by allowing you to specify the user `PUID` and group `PGID`. Ensure the data volume directory on the host is owned by the same user you specify and it will "just work" &trade;.
+Sometimes when using volumes (`-v` flags) permissions issues can arise between the host OS and the container, we avoid this issue by allowing you to specify the user `PUID` and group `PGID`.
 
-In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as below:
+Ensure any volume directories on the host are owned by the same user you specify and it will "just work" &trade;.
+
+In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as below:
 
 ```
   $ id <dockeruser>
@@ -63,19 +72,17 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 Insert a basic user guide here to get a n00b up and running with the software inside the container. DELETE ME
 
 
-## Info
+## Container access and information.
 
-* Shell access whilst the container is running: `docker exec -it <container-name> /bin/bash`
-* To monitor the logs of the container in realtime: `docker logs -f <container-name>`
-
-* container version number 
-
-`docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>`
-
-* image version number
-
-`docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>`
+| Function | Command |
+| :--- | :--- |
+| Shell access (live container) | `docker exec -it <container-name> /bin/bash` |
+| Realtime container logs | `docker logs -f <container-name>` |
+| Container version number | `docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>` |
+| Image version number |  `docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>` |
 
 ## Versions
 
-+ **dd.MM.yy:** Initial Release.
+|  Date | Changes |
+| :---: | --- |
+| dd.MM.yy |  Initial Release. |
