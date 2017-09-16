@@ -21,6 +21,8 @@
 
 The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping.
 
+This image is based on alpine linux with s6 overlay.
+
 # <image-name>
 
 Provide a short, concise description of the application. No more than two SHORT paragraphs. Link to sources where possible and include an image illustrating your point if necessary. Point users to the original applications website, as that's the best place to get support - not here.
@@ -53,10 +55,6 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 | `-v /config` | explain what lives here |
 | `-e PGID` | for GroupID, see below for explanation |
 | `-e PUID` | for UserID, see below for explanation |
-
-This image is based on alpine linux with s6 overlay, for shell access whilst the container is running do :-
-
-`docker exec -it <container-name> /bin/bash`
 
 ### User / Group Identifiers
 
