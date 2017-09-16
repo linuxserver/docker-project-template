@@ -76,16 +76,10 @@ Insert a basic user guide here to get a n00b up and running with the software in
 
 | Function | Command |
 | --- | :---: |
-| Shell access | `docker exec -it <container-name> /bin/bash` |
-| To monitor the logs of the container in realtime: | `docker logs -f <container-name>` |
-
-* container version number 
-
-`docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>`
-
-* image version number
-
-`docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>`
+| Shell access (live container) | `docker exec -it <container-name> /bin/bash` |
+| Realtime container logs | `docker logs -f <container-name>` |
+| container version number | `docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>` |
+| image version number |  `docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>` |
 
 ## Versions
 
