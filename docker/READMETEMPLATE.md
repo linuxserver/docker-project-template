@@ -9,14 +9,6 @@
 
 The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. 
 
-Find us for chat or support at:
-
-| Type | Address | 
-| --- | --- |
-| Forum | [Linuserver.io forum][forumurl] |
-| IRC |freenode at `#linuxserver.io` more information at: [IRC][ircurl]
-| Podcast | covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxerver.io Podcast][podcasturl] |
-
 # <image-name>
 
 Provide a short, concise description of the application. No more than two SHORT paragraphs. Link to sources where possible and include an image illustrating your point if necessary. Point users to the original applications website, as that's the best place to get support - not here.
@@ -90,3 +82,11 @@ Insert a basic user guide here to get a n00b up and running with the software in
 |  Date | Changes |
 | --- | --- |
 | dd.MM.yy |  Initial Release. |
+
+Find us for chat or support at:
+
+| Type | Address | 
+| --- | --- |
+| Forum | [Linuserver.io forum][forumurl] |
+| IRC |freenode at `#linuxserver.io` more information at: [IRC][ircurl]
+| Podcast | covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxerver.io Podcast][podcasturl] |
