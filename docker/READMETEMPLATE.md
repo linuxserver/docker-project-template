@@ -19,9 +19,7 @@
 | Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxerver.io Podcast][podcasturl] |
 
 
-The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping.
-
-This image is based on alpine linux with s6 overlay.
+The [LinuxServer.io][linuxserverurl] team brings you another image release featuring easy user mapping and based on alpine linux with s6 overlay.
 
 # <image-name>
 
