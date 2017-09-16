@@ -13,7 +13,7 @@
 | :---: |
 
 | Type | Address | 
-| --- | --- |
+| :---: | --- |
 | Forum | [Linuserver.io forum][forumurl] |
 | IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
 | Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxerver.io Podcast][podcasturl] |
@@ -48,7 +48,7 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 
 
 | Parameter | Function |
-| --- | --- |
+| :---: | --- |
 | `-p 1234` | the port(s) |
 | `-v /config` | explain what lives here |
 | `-e PGID` | for GroupID, see below for explanation |
@@ -92,5 +92,5 @@ Insert a basic user guide here to get a n00b up and running with the software in
 ## Versions
 
 |  Date | Changes |
-| --- | --- |
+| :---: | --- |
 | dd.MM.yy |  Initial Release. |
