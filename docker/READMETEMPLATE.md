@@ -5,7 +5,6 @@
 [appurl]: www.example.com
 [hub]: https://hub.docker.com/r/example/example/
 
-The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. 
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
