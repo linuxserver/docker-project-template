@@ -14,8 +14,8 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 | Type | Address | 
 | --- | --- |
 | Forum | [Linuserver.io forum][forumurl] |
-| IRC |freenode at `#linuxserver.io` more information at: [IRC][ircurl]
-| Podcast | covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxerver.io Podcast][podcasturl] |
+| IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
+| Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxerver.io Podcast][podcasturl] |
 
 # <image-name>
 
