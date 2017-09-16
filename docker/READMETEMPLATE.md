@@ -77,17 +77,16 @@ Insert a basic user guide here to get a n00b up and running with the software in
 
 `docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>`
 
+## Versions
 
-Find us for chat or support at:
+|  Date | Changes |
+| --- | --- |
+| dd.MM.yy |  Initial Release. |
+
+## Contact information
 
 | Type | Address | 
 | --- | --- |
 | Forum | [Linuserver.io forum][forumurl] |
 | IRC |freenode at `#linuxserver.io` more information at: [IRC][ircurl]
 | Podcast | covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxerver.io Podcast][podcasturl] |
-
-## Versions
-
-|  Date | Changes |
-| --- | --- |
-| dd.MM.yy |  Initial Release. |
