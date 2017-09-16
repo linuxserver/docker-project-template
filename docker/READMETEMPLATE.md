@@ -16,7 +16,7 @@
 | :---: | --- |
 | Forum | [Linuserver.io forum][forumurl] |
 | IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
-| Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxerver.io Podcast][podcasturl] |
+| Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxserver.io Podcast][podcasturl] |
 
 
 The [LinuxServer.io][linuxserverurl] team brings you another image release featuring easy user mapping and based on alpine linux with s6 overlay.
