@@ -51,7 +51,7 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 | `-e PGID` | for GroupID, see below for explanation |
 | `-e PUID` | for UserID, see below for explanation |
 
-It is based on alpine linux with s6 overlay, for shell access whilst the container is running do :-
+This image is based on alpine linux with s6 overlay, for shell access whilst the container is running do :-
 
 `docker exec -it <container-name> /bin/bash`
 
