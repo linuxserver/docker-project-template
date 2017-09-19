@@ -26,6 +26,8 @@ Provide a short, concise description of the application. No more than two SHORT 
 
 `IMPORTANT, replace all instances of <image-name> with the correct dockerhub repo (ie linuxserver/plex) and <container-name> information (ie, plex)`
 
+&nbsp;
+
 ## Usage
 
 ```
@@ -55,6 +57,8 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 | `-e PGID` | for GroupID, see below for explanation |
 | `-e PUID` | for UserID, see below for explanation |
 
+&nbsp;
+
 ## User / Group Identifiers
 
 Sometimes when using volumes (`-v` flags) permissions issues can arise between the host OS and the container, we avoid this issue by allowing you to specify the user `PUID` and group `PGID`.
@@ -75,6 +79,8 @@ In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as bel
 Insert a basic user guide here to get a n00b up and running with the software inside the container. DELETE ME
 
 
+&nbsp;
+
 ## Container access and information.
 
 | Function | Command |
@@ -83,6 +89,8 @@ Insert a basic user guide here to get a n00b up and running with the software in
 | Realtime container logs | `docker logs -f <container-name>` |
 | Container version number | `docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>` |
 | Image version number |  `docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>` |
+
+&nbsp;
 
 ## Versions
 
