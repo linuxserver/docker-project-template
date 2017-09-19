@@ -9,8 +9,7 @@
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png?v=4&s=4000)][linuxserverurl]
 
 
-| Contact information:- |
-| :---: |
+## Contact information:- 
 
 | Type | Address/Details | 
 | :---: | --- |
@@ -38,6 +37,8 @@ docker create \
   <image-name>
 ```
 
+&nbsp;
+
 ## Parameters
 
 `The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
@@ -54,7 +55,7 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 | `-e PGID` | for GroupID, see below for explanation |
 | `-e PUID` | for UserID, see below for explanation |
 
-### User / Group Identifiers
+## User / Group Identifiers
 
 Sometimes when using volumes (`-v` flags) permissions issues can arise between the host OS and the container, we avoid this issue by allowing you to specify the user `PUID` and group `PGID`.
 
@@ -66,6 +67,8 @@ In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as bel
   $ id <dockeruser>
     uid=1001(dockeruser) gid=1001(dockergroup) groups=1001(dockergroup)
 ```
+
+&nbsp;
 
 ## Setting up the application
 
