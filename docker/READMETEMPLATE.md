@@ -13,7 +13,7 @@
 
 | Type | Address/Details | 
 | :---: | --- |
-| Discord | [https://discord.gg/YWrKVTn] |
+| Discord | [Discord](https://discord.gg/YWrKVTn) |
 | Forum | [Linuserver.io forum][forumurl] |
 | IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
 | Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxserver.io Podcast][podcasturl] |
