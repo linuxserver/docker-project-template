@@ -19,7 +19,7 @@
 | Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxserver.io Podcast][podcasturl] |
 
 
-The [LinuxServer.io][linuxserverurl] team brings you another image release featuring:-
+The [LinuxServer.io][linuxserverurl] team brings you another image release featuring :-
 
  + regular and timely application updates
  + easy user mappings
