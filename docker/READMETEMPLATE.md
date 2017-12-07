@@ -19,7 +19,13 @@
 | Podcast | Covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation! [Linuxserver.io Podcast][podcasturl] |
 
 
-The [LinuxServer.io][linuxserverurl] team brings you another image release featuring easy user mapping and based on alpine linux with s6 overlay.
+The [LinuxServer.io][linuxserverurl] team brings you another image release featuring:-
+
+ + regular and timely application updates
+ + easy user mappings
+ + custom base image with s6 overlay
+ + weekly base OS updates with common layers across the entire LinuxServer.io ecosystem to minimise space usage, down time and bandwidth
+ + security updates
 
 # <image-name>
 
@@ -44,10 +50,10 @@ docker create \
 
 ## Parameters
 
-`The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
+The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
 For example with a port -p external:internal - what this shows is the port mapping from internal to external of the container.
 So -p 8080:80 would expose port 80 from inside the container to be accessible from the host's IP on port 8080
-http://192.168.x.x:8080 would show you what's running INSIDE the container on port 80.`
+http://192.168.x.x:8080 would show you what's running INSIDE the container on port 80.
 
 
 
