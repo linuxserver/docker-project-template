@@ -15,9 +15,8 @@
 | Type | Address/Details | 
 | :---: | --- |
 | Discord | [Discord](https://discord.gg/YWrKVTn) |
-| Forum | [Linuserver.io forum][forumurl] |
 | IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
-
+| Forum | [Linuserver.io forum][forumurl] |
 
 The [LinuxServer.io][linuxserverurl] team brings you another image release featuring :-
 
