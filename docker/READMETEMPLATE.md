@@ -18,6 +18,8 @@
 | IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
 | Forum | [Linuserver.io forum][forumurl] |
 
+&nbsp;
+&nbsp;
 The [LinuxServer.io][linuxserverurl] team brings you another image release featuring :-
 
  + regular and timely application updates
