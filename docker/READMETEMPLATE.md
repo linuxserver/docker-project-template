@@ -34,7 +34,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another image release featu
 
 Provide a short, concise description of the application. No more than two SHORT paragraphs. Link to sources where possible and include an image illustrating your point if necessary. Point users to the original applications website, as that's the best place to get support - not here.
 
-`IMPORTANT, replace all instances of <image-name> with the correct dockerhub repo (ie linuxserver/plex) and <container-name> information (ie, plex)`
+`IMPORTANT, replace all instances of <image-name> with the correct dockerhub repo (ie linuxserver/plex) and <container-name> information (ie, plex)` and make sure to update the block at the top of this file containing app specific urls, dockerhub url and dockerfile url etc.
 
 &nbsp;
 
