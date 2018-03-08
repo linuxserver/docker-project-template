@@ -97,8 +97,8 @@ Insert a basic user guide here to get a n00b up and running with the software in
 | :--- | :--- |
 | Shell access (live container) | `docker exec -it <container-name> /bin/bash` |
 | Realtime container logs | `docker logs -f <container-name>` |
-| Container version number | `docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>` |
-| Image version number |  `docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>` |
+| Container version | `docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>` |
+| Image version |  `docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>` |
 | Dockerfile | [Dockerfile][dockerfileurl] |
 
 &nbsp;
