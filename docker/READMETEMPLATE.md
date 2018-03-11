@@ -105,7 +105,7 @@ Insert a basic user guide here to get a n00b up and running with the software in
 
 &nbsp;
 
-## Versions
+## Changelog
 
 |  Date | Changes |
 | :---: | --- |
