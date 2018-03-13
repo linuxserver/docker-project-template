@@ -3,7 +3,7 @@
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
 [appurl]: www.example.com
-[dockerfileurl]: https://github.com/linuxserver/new-project-templates/blob/master/docker/Dockerfile
+[dockerfileurl]: https://github.com/linuxserver/docker-<container-name>/blob/master/Dockerfile
 [hub]: https://hub.docker.com/r/<image-name>/
 
 
