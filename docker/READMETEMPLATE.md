@@ -1,27 +1,14 @@
-[linuxserverurl]: https://linuxserver.io
-[forumurl]: https://forum.linuxserver.io
-[ircurl]: https://www.linuxserver.io/irc/
-[appurl]: www.example.com
-[dockerfileurl]: https://github.com/linuxserver/docker-<container-name>/blob/master/Dockerfile
-[hub]: https://hub.docker.com/r/<image-name>/
+[dockerfile]: https://github.com/linuxserver/docker-<container-name>/blob/master/Dockerfile
+[linuxserver]: https://linuxserver.io
 
+[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png?v=4&s=4000)][linuxserver]
 
+## Contact information:-
 
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png?v=4&s=4000)][linuxserverurl]
+* [IRC](irc://irc.freenode.net/linuxserver.io) on freenode at `#linuxserver.io`
+* [Discord](https://discord.gg/YWrKVTn)
 
-
-## Contact information:- 
-
-| Type | Address/Details | 
-| :---: | --- |
-| Discord | [Discord](https://discord.gg/YWrKVTn) |
-| IRC | freenode at `#linuxserver.io` more information at:- [IRC][ircurl]
-| Forum | [Linuserver.io forum][forumurl] |
-
-&nbsp;
-&nbsp;
-
-The [LinuxServer.io][linuxserverurl] team brings you another image release featuring :-
+The [LinuxServer.io][linuxserver] team brings you another image release featuring :-
 
  + regular and timely application updates
  + easy user mappings
@@ -31,30 +18,26 @@ The [LinuxServer.io][linuxserverurl] team brings you another image release featu
 
 # <image-name>
 
-[![Dockerfile-link](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/Dockerfile-Link-green.png)][dockerfileurl]
+[![Dockerfile-link](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/Dockerfile-Link-green.png)][dockerfile]
 
 Provide a short, concise description of the application. No more than two SHORT paragraphs. Link to sources where possible and include an image illustrating your point if necessary. Point users to the original applications website, as that's the best place to get support - not here.
 
 `IMPORTANT, replace all instances of <image-name> with the correct dockerhub repo (ie linuxserver/plex) and <container-name> information (ie, plex) and make sure to update the block at the top of this file containing app specific urls, dockerhub url and dockerfile url etc.`
-
-&nbsp;
 
 ## Usage
 
 ```
 docker create \
   --name=<container-name> \
-  -v <path to data>:/config \
   -e PGID=<gid> -e PUID=<uid>  \
+  -v <path to data>:/config \
   -p 1234:1234 \
   <image-name>
 ```
 
-&nbsp;
-
 ## Parameters
 
-The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side. 
+The parameters are split into two halves, separated by a colon, the left hand side representing the host and the right the container side.
 For example with a port -p external:internal - what this shows is the port mapping from internal to external of the container.
 So -p 8080:80 would expose port 80 from inside the container to be accessible from the host's IP on port 8080
 http://192.168.x.x:8080 would show you what's running INSIDE the container on port 80.
@@ -67,8 +50,6 @@ http://192.168.x.x:8080 would show you what's running INSIDE the container on po
 | `-v /config` | explain what lives here |
 | `-e PGID` | for GroupID, see below for explanation |
 | `-e PUID` | for UserID, see below for explanation |
-
-&nbsp;
 
 ## User / Group Identifiers
 
@@ -83,14 +64,9 @@ In this instance `PUID=1001` and `PGID=1001`, to find yours use `id user` as bel
     uid=1001(dockeruser) gid=1001(dockergroup) groups=1001(dockergroup)
 ```
 
-&nbsp;
-
 ## Setting up the application
 
 Insert a basic user guide here to get a n00b up and running with the software inside the container. DELETE ME
-
-
-&nbsp;
 
 ## Container access and information.
 
@@ -100,9 +76,7 @@ Insert a basic user guide here to get a n00b up and running with the software in
 | Realtime container logs | `docker logs -f <container-name>` |
 | Container version | `docker inspect -f '{{ index .Config.Labels "build_version" }}' <container-name>` |
 | Image version |  `docker inspect -f '{{ index .Config.Labels "build_version" }}' <image-name>` |
-| Dockerfile | [Dockerfile][dockerfileurl] |
-
-&nbsp;
+| Dockerfile | [Dockerfile][dockerfile] |
 
 ## Changelog
 
