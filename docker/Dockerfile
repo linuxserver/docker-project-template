@@ -1,5 +1,5 @@
-FROM lsiobase/alpine:3.7
-FROM lsiobase/ubuntu:xenial
+FROM lsiobase/alpine:3.9
+FROM lsiobase/ubuntu:bionic
 
 # set version label
 ARG BUILD_DATE
